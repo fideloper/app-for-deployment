@@ -60,6 +60,6 @@ server '54.152.107.46 ', user: 'forge', roles: %w{app db web}, my_property: :my_
 #     # password: 'please use keys'
 #   }
 set :ssh_options, {
-    keys: %w(/home/fideloper/.ssh/fideloperllc.pem),
+    keys: %w(/home/vagrant/.ssh/fideloperllc.pem),
     auth_methods: %w(publickey)
 }
