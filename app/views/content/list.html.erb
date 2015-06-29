@@ -1,2 +1,9 @@
 <h1>Content#list</h1>
 <p>Find me in app/views/content/list.html.erb</p>
+
+<% @articles.each do |article| %>
+<article>
+  <h2><%= article.title %></h2>
+  <p><%= article.text %></p>
+</article>
+<% end %>
